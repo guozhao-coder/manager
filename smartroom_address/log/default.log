@@ -1,0 +1,25 @@
+
+2019-11-28 14:02:50 [INF] address.go:74 | 查询操作
+2019-11-28 14:02:50 [DBG] Write.go:61 | {"code":200,"message":"查询成功","respTime":1574920970486,"result":[{"addrId":"P001_A001_M001_F001_R007","name":"润泽园区A1数据中心M1模组一层电池室","orderNo":7,"isLeaf":1,"parentId":"P001_A001_M001_F001","src":"","addrType":4,"simpleName":"电池室","nickName":"电池室","pushName":"A1M1F1-电池室","description":"","State":0},{"addrId":"P001_A005_M001_F001_R007","name":"润泽园区A5数据中心M1模组一层A电池室","orderNo":7,"isLeaf":1,"parentId":"P001_A005_M001_F001","src":"","addrType":4,"simpleName":"A电池室","nickName":"A电池室","pushName":"A5M1F1-A电池室","description":" ","State":0},{"addrId":"P001_A005_M001_F001_R008","name":"润泽园区A5数据中心M1模组一层B电池室","orderNo":8,"isLeaf":1,"parentId":"P001_A005_M001_F001","src":"","addrType":4,"simpleName":"B电池室","nickName":"B电池室","pushName":"A5M1F1-B电池室","description":" ","State":0}]}
+2019-11-28 14:02:50 [INF] address.go:88 | 查询成功
+2019-11-28 14:31:24 [INF] base.go:36 | drivername:mysql
+2019-11-28 14:31:24 [INF] base.go:48 | db conn success
+2019-11-28 14:31:32 [INF] address.go:35 | 添加请求
+2019-11-28 14:31:32 [INF] AddressManager.go:77 | 增加的行数：1
+2019-11-28 14:31:32 [INF] address.go:51 | 新增成功
+2019-11-28 14:34:10 [INF] address.go:16 | 删除请求
+2019-11-28 14:34:10 [INF] AddressManager.go:41 | 删除的行数：1
+2019-11-28 14:34:10 [INF] address.go:30 | 删除成功
+2019-11-28 15:31:42 [INF] base.go:36 | drivername:mysql
+2019-11-28 15:31:42 [INF] base.go:48 | db conn success
+2019-11-28 16:11:43 [INF] base.go:36 | drivername:mysql
+2019-11-28 16:11:43 [INF] base.go:48 | db conn success
+2019-11-28 16:20:31 [INF] address.go:56 | 修改操作
+2019-11-28 16:20:31 [INF] AddressManager.go:187 | 修改的行数：1
+2019-11-28 16:20:31 [INF] address.go:69 | 修改成功
+2019-11-28 16:20:45 [INF] address.go:56 | 修改操作
+2019-11-28 16:20:45 [ERR] AddressManager.go:183 | DB_update affected rows is 0
+2019-11-28 16:20:45 [ERR] address.go:65 | DB_update affected rows is 0
+2019-11-28 16:20:51 [INF] address.go:56 | 修改操作
+2019-11-28 16:20:51 [INF] AddressManager.go:187 | 修改的行数：1
+2019-11-28 16:20:51 [INF] address.go:69 | 修改成功
