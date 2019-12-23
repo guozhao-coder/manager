@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="683c3d94-177d-4076-ab53-2016034518a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_handler/Router.go" beforeDir="false" afterPath="$PROJECT_DIR$/http_handler/Router.go" afterDir="false" />
-    </list>
+    <list default="true" id="683c3d94-177d-4076-ab53-2016034518a9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,6 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../learn use git2/smartroom_manage/smartroom_address" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -144,7 +140,6 @@
     <MESSAGE value="5commit" />
     <MESSAGE value="learn2 first" />
     <MESSAGE value="learn2 增加了monitor删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn2 增加了monitor删除" />
     <MESSAGE value="6 commit" />
     <option name="LAST_COMMIT_MESSAGE" value="6 commit" />
   </component>
