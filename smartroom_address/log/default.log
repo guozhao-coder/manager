@@ -23,3 +23,5 @@
 2019-11-28 16:20:51 [INF] address.go:56 | 修改操作
 2019-11-28 16:20:51 [INF] AddressManager.go:187 | 修改的行数：1
 2019-11-28 16:20:51 [INF] address.go:69 | 修改成功
+2019-12-23 13:29:25 [INF] base.go:36 | drivername:mysql
+2019-12-23 13:29:25 [INF] base.go:48 | db conn success
