@@ -23,13 +23,13 @@ func router_address(router *httprouter.Router) {
 
 	//删除地点
 	router.DELETE("/monitor/leaf/address/delete", controller.Delete_Address)
+	router.DELETE("/smartroom/leaf/address/delete", controller.Delete_Address)
 
 	//新增地点
 	router.POST("/monitor/leaf/address/add", controller.Insert_Address)
+	router.POST("/smartroom/leaf/address/add", controller.Insert_Address)
 
 	//编辑地点
 	router.PUT("/monitor/leaf/address/update", controller.Update_Address)
-	//编辑
-	//router.PUT("/smartroom/leaf/address/update", controller.Update_Address)
 
 }
