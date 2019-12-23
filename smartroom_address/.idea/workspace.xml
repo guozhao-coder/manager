@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="683c3d94-177d-4076-ab53-2016034518a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/http_handler/Router.go" beforeDir="false" afterPath="$PROJECT_DIR$/http_handler/Router.go" afterDir="false" />
-    </list>
+    <list default="true" id="683c3d94-177d-4076-ab53-2016034518a9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +127,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
