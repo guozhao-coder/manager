@@ -29,5 +29,7 @@ func router_address(router *httprouter.Router) {
 
 	//编辑地点
 	router.PUT("/monitor/leaf/address/update", controller.Update_Address)
+	//编辑
+	router.PUT("/smartroom/leaf/address/update", controller.Update_Address)
 
 }
