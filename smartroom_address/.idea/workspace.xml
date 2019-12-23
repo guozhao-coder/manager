@@ -142,7 +142,8 @@
     <MESSAGE value="5commit" />
     <MESSAGE value="learn2 first" />
     <MESSAGE value="learn2 增加了monitor删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn2 增加了monitor删除" />
+    <MESSAGE value="learn2 把所有router修改为monitor" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn2 把所有router修改为monitor" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
