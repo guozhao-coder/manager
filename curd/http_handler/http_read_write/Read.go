@@ -1,12 +1,12 @@
 package rw
 
 import (
+	errCode "curd/http_handler/error_code"
 	"encoding/json"
 	"fmt"
 	logs "github.com/cihub/seelog"
 	"io/ioutil"
 	"net/http"
-	errCode "smartroom_address/http_handler/error_code"
 )
 
 func ReadBody(request *http.Request, v interface{}) error {
@@ -18,14 +18,14 @@ func ReadBody(request *http.Request, v interface{}) error {
 	}
 	defer request.Body.Close()
 	//fmt.Println(string(data))
-	if data == nil|| len(data) == 0 {
+	if data == nil || len(data) == 0 {
 		logs.Error(err)
-		return errCode.New( errCode.JSON_UNMARSHAL_ERROR,"数据为空")
+		return errCode.New(errCode.JSON_UNMARSHAL_ERROR, "数据为空")
 	}
 	err = json.Unmarshal(data, &v)
 	if err != nil {
 		logs.Error(err)
-		return errCode.New( errCode.JSON_UNMARSHAL_ERROR,"json解析错误")
+		return errCode.New(errCode.JSON_UNMARSHAL_ERROR, "json解析错误")
 
 	}
 	return nil

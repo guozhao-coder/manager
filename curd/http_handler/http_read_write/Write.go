@@ -1,9 +1,9 @@
 package rw
 
 import (
+	bean2 "curd/http_handler/bean"
 	"encoding/json"
 	"net/http"
-	bean2 "smartroom_address/http_handler/bean"
 
 	logs "github.com/cihub/seelog"
 

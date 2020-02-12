@@ -6,8 +6,8 @@ import (
 	"net/http"
 )
 
-func InitServlet(port int){
-	defer  func() {
+func InitServlet(port int) {
+	defer func() {
 		if err := recover(); err != nil {
 			logs.Error("initServlet error:", err)
 		}
@@ -20,7 +20,7 @@ func InitServlet(port int){
 	}
 	err := server.ListenAndServe()
 	logs.Debug("listenning port...")
-	if err != nil{
+	if err != nil {
 		logs.Error("listen server error")
 	}
 }

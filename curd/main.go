@@ -2,7 +2,7 @@ package main
 
 import (
 	logs "github.com/cihub/seelog"
-	ht "smartroom_address/http_handler"
+	ht "curd/http_handler"
 )
 
 const HTTP_PORT  = 9999

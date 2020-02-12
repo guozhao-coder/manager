@@ -16,5 +16,3 @@ type DataResult struct {
 	*BaseResponse
 	Result interface{} `json:"result"`
 }
-
-
