@@ -2,11 +2,10 @@ package config
 
 //DB的配置参数
 type DBConfig struct {
-	DBType string        `json:"dbType"` //数据库类型
-	Mysql  *SqlConfig    `json:"mysql"`  //mysql数据库
+	DBType string     `json:"dbType"` //数据库类型
+	Mysql  *SqlConfig `json:"mysql"`  //mysql数据库
 
 }
-
 
 //sql数据库配置参数
 type SqlConfig struct {
@@ -17,6 +16,3 @@ type SqlConfig struct {
 	Pwd     string `json:"pwd"`     //密码
 	DBName  string `json:"dbname"`  //数据库名
 }
-
-
-

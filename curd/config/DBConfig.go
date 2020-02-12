@@ -1,4 +1,5 @@
 package config
+
 import (
 	"smartroom_address/util"
 )
@@ -11,9 +12,8 @@ func GetDBConfig() *DBConfig {
 		dcm = &DBConfig{
 			Mysql: new(SqlConfig),
 		}
-		util.ReadJsonFile("dev.json",dcm)
+		util.ReadJsonFile("dev.json", dcm)
 
 	}
 	return dcm
 }
-
