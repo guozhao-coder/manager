@@ -18,7 +18,7 @@ func newRouter() *httprouter.Router {
 
 func router_address(router *httprouter.Router) {
 	//
-	router.GET("/smartroom/leaf/address/getaddress", controller.Query_Address)
+	router.GET("/smartroom/leaf/address/getaddress", controller.Query_ddress)
 
 	router.DELETE("/smartroom/leaf/address/delete", controller.Delete_Address)
 
