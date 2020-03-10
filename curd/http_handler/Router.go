@@ -41,7 +41,7 @@ func router_address(router *httprouter.Router) {
 	router.POST("/smartroom/leaf/address/update", controller.Update_Address)
 
 	//branch开发的修改地点功能
-	router.POST("/smartroom/leaf/address/update", controller.Update_Address)
+	router.POST("/smartroom/leaf/address/update", controller.Update_Addressversion2)
 	//branch开发的删除地点功能
 	router.POST("/smartroom/leaf/address/update", controller.delete_Address)
 	//branch开发的增加地点功能
