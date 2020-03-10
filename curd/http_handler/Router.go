@@ -34,11 +34,17 @@ func router_address(router *httprouter.Router) {
 	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
 	//添加post4（branch1做的操作）
 	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
-	//branch1开发新功能
-	router.GET("/smartroom/leaf/address/update", controller.Update_Address)
+
 	//添加post5（branch2做的操作）
 	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
 	//branch2开发新功能
 	router.POST("/smartroom/leaf/address/update", controller.Update_Address)
+
+	//branch开发的修改地点功能
+	router.POST("/smartroom/leaf/address/update", controller.Update_Address)
+	//branch开发的删除地点功能
+	router.POST("/smartroom/leaf/address/update", controller.delete_Address)
+	//branch开发的增加地点功能
+	router.POST("/smartroom/leaf/address/update", controller.add_Address)
 
 }
