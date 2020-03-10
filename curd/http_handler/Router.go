@@ -51,5 +51,7 @@ func router_address(router *httprouter.Router) {
 	router.POST("/smartroom/leaf/address/update", controller.Update_people)
 	//branch2修改狗
 	router.POST("/smartroom/leaf/address/update", controller.Update_dog)
+	//branch2修改猫
+	router.post("/smartroom/leaf/address/update", controller.Update_dog)
 
 }
