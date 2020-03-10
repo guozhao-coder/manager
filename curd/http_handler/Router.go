@@ -26,32 +26,4 @@ func router_address(router *httprouter.Router) {
 
 	router.PUT("/smartroom/leaf/address/update", controller.Update_Address)
 
-	//添加post
-	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
-	//添加post2
-	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
-	//添加post3（branch1做的操作）
-	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
-	//添加post4（branch1做的操作）
-	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
-
-	//添加post5（branch2做的操作）
-	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
-	//branch2开发新功能
-	router.POST("/smartroom/leaf/address/update", controller.Update_Address)
-
-	//branch开发的修改地点功能
-	router.POST("/smartroom/leaf/address/update", controller.Update_Addressversion2)
-	//branch开发的删除地点功能
-	router.POST("/smartroom/leaf/address/update", controller.delete_Address)
-	//branch开发的增加地点功能
-	router.POST("/smartroom/leaf/address/update", controller.add_Address)
-
-	//branch2修改人
-	router.POST("/smartroom/leaf/address/update", controller.Update_people)
-	//branch2修改狗
-	router.POST("/smartroom/leaf/address/update", controller.Update_dog)
-	//branch2修改猫
-	router.post("/smartroom/leaf/address/update", controller.Update_dog)
-
 }
