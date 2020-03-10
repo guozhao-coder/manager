@@ -47,4 +47,9 @@ func router_address(router *httprouter.Router) {
 	//branch开发的增加地点功能
 	router.POST("/smartroom/leaf/address/update", controller.add_Address)
 
+	//branch2修改人
+	router.POST("/smartroom/leaf/address/update", controller.Update_people)
+	//branch2修改狗
+	router.POST("/smartroom/leaf/address/update", controller.Update_dog)
+
 }
