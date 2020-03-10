@@ -17,8 +17,8 @@ func newRouter() *httprouter.Router {
 }
 
 func router_address(router *httprouter.Router) {
-
-	router.GET("/smartroom/leaf/address/getaddress", controller.Query)
+	//(branch1修改)
+	router.GET("/smartroom/leaf/address/getaddress", controller.Query-address)
 
 	router.DELETE("/smartroom/leaf/address/delete", controller.Delete_Address)
 
@@ -29,6 +29,8 @@ func router_address(router *httprouter.Router) {
 	//添加post
 	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
 	//添加post2
+	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
+	//添加post3（branch1做的操作）
 	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
 
 }
