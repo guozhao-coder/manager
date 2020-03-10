@@ -36,5 +36,7 @@ func router_address(router *httprouter.Router) {
 	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
 	//添加post5（branch2做的操作）
 	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
+	//branch2开发新功能
+	router.POST("/smartroom/leaf/address/update", controller.Update_Address)
 
 }
