@@ -26,4 +26,7 @@ func router_address(router *httprouter.Router) {
 
 	router.PUT("/smartroom/leaf/address/update", controller.Update_Address)
 
+	//添加post
+	router.Post("/smartroom/leaf/address/update", controller.Update_Address)
+
 }
