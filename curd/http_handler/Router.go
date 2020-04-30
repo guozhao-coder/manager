@@ -26,4 +26,6 @@ func router_address(router *httprouter.Router) {
 
 	router.PUT("/smartroom/leaf/address/update", controller.Update_Address)
 
+	//在brant上新增功能
+	router.POST("/smartroom/leaf/address/add", controller.Insert_brant)
 }
