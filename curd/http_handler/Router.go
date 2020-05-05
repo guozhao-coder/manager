@@ -32,4 +32,7 @@ func router_address(router *httprouter.Router) {
 	//郭朝新接到一个需求，在本地创建一个自己的分支
 	router.POST("/smartroom/leaf/address/add", controller.Insert-guozhao)
 	//开发完毕提交代码//首先提交到自己的远程分支
+
+	//郭朝接到一个新需求，又写一个接口
+	router.POST("/smartroom/leaf/address/add", controller.Insert-guozhao2)
 }
