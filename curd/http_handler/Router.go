@@ -29,13 +29,13 @@ func router_address(router *httprouter.Router) {
 	//在brant上新增功能
 	router.POST("/smartroom/leaf/address/add", controller.Insert_brant)
 
-	//郭朝新接到一个需求，在本地创建一个自己的分支
-	router.POST("/smartroom/leaf/address/add", controller.Insert-guozhao)
+	//郭朝新接到一个需求，在本地创建一个自己的分支//发现问题并修改
+	router.POST("/smartroom/leaf/address/add", controller.Insert-guozhao-update)
 	//开发完毕提交代码//首先提交到自己的远程分支
 
 	//吴靓接到一个任务，并创建一个自己的分支
 	router.POST("/smartroom/leaf/address/add", controller.Insert-wuliang)
 
 	//郭朝接到一个新需求，又写一个接口
-	router.POST("/smartroom/leaf/address/add", controller.Insert-guozhao2)
+	router.POST("/smartroom/leaf/address/add", controller.Insert-guozhao2-update)
 }
